@@ -1,3 +1,8 @@
+body {
+  font-family: sans-serif;
+}
+
+
 #textInputDna {
   width: 400px;
   height: 20px;
@@ -13,8 +18,7 @@
 #dnaOutput {
   width: 400px;
   height: 20px;
-  display: flex;
-  flex-wrap: wrap;
+  color: blue;
 }
 
 
@@ -33,12 +37,21 @@
 #rnaOutput {
   width: 500px;
   height: 20px;
+  color: blue;
 }
+
+
 
 #dnaInput {
   width: 400px;
   height: 20px;
   border-radius: 5px;
+}
+
+#binaryOutputFromDna {
+  width: 500px;
+  height: 20px;
+  color: blue;
 }
 
 #dnaComplimentaryInput {
@@ -47,6 +60,24 @@
   border-radius: 5px;
 }
 
+
+#dnaComplimentaryOutput {
+  width: 500px;
+  height: 20px;
+  color: blue;
+}
+
+#dnaComplimentaryBinaryOutput {
+  width: 500px;
+  height: 20px;
+  color: blue;
+}
+
+#asciiOutput {
+  width: 500px;
+  height: 20px;
+  color: blue;
+}
 
 button {
   height: 25px;
