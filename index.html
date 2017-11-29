@@ -2,13 +2,80 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
     <title></title>
   </head>
   <body>
+    <div>
+      <h2>Convert your text to a DNA sequence:</h2>
+      <input id="textInputDna" placeholder="Input"/>
+      <button onClick="convertDna();">Convert to DNA!</button>
+      
+      <div>
+        <h3>Binary Output:</h3>
+        <input id="binaryOutputDna"/>
+      </div>
+      
+      <div>
+        <h3>DNA Sequence Output:</h3>
+        <h5>Legend: 00 : A, 01 : T, 10 : G, 11 : C</h5>
+        <div id="dnaOutput"/>
+      </div>
+      
+    </div>
     
-    <input id="textInput" placeholder="Input"/>
-    <input id="binaryOutput"/>
-    <button onClick="convert();">Convert!</button>
+    <div>
+      <h2>Convert your text to an RNA sequence:</h2>
+      <input id="textInputRna" placeholder="Input"/>
+      <button onClick="convertRna();">Convert to RNA!</button>
+      
+      <div>
+        <h3>Binary Output:</h3>
+        <input id="binaryOutputRna"/>
+      </div>
+      
+      <div>
+        <h3>RNA Sequence Output:</h3>
+        <h5>Legend: 00 : A, 01 : U, 10 : G, 11 : C</h5>
+        <div id="rnaOutput"/>
+      </div>
+    </div>
+    
+    <div>
+      <h2>Convert your DNA Sequence to Binary:</h2>
+      <input id="dnaInput" placeholder="Input"/>
+      <button onClick="convertDnaToBinary();">Convert to Binary!</button>
+      
+      <div>
+        <h3>Binary Output:</h3>
+        <h5>Will return "-1" if sequence does not exist</h5>
+        <div id="binaryOutputFromDna"/>
+      </div>
+    </div>
+      
+      
+    <div>
+      <h2>Find your complimentary DNA strand and convert it back to ASCII:</h2>
+      <input id="dnaComplimentaryInput" placeholder="Input"/>
+      <button onClick="complimentaryStrand();">Convert Complimentary Strand to ASCII</button>
+    
+      <div>
+        <h3>Complimentary Strand Output:</h3>
+        <h5>Legend: A is complimentary with T; G is complimentary with C</h5>
+        <div id="dnaComplimentaryOutput"/>
+      </div>
+      
+      <div>
+        <h3>Binary Output:</h3>
+        <h5>Legend: 00 : A, 01 : T, 10 : G, 11 : C</h5>
+        <div id="dnaComplimentaryBinaryOutput"/>
+      </div>
+      
+      <div>
+        <h3>ASCII Output:</h3>
+        <div id="asciiOutput"/>
+      </div>
+    </div>
     
     <script src="script.js"></script>
   </body>

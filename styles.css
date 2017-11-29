@@ -1,0 +1,62 @@
+#textInputDna {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#binaryOutputDna {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#dnaOutput {
+  width: 400px;
+  height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#textInputRna {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#binaryOutputRna {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#rnaOutput {
+  width: 500px;
+  height: 20px;
+}
+
+#dnaInput {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+#dnaComplimentaryInput {
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+
+button {
+  height: 25px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2FBDC3;
+}
+
+h5 {
+  font-style: italic;
+}
