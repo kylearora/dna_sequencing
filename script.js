@@ -131,7 +131,7 @@ function complimentaryStrand() {
  dnaComplimentaryBinaryOutput.innerHTML = newBinaryArray.join("")
  console.log(dnaComplimentaryBinaryOutput.innerHTML);
  
- //Not sure how to accomplish this
+ //Not sure how to accomplish converting binary back to ASCII
  asciiOutput.innerHTML = parseInt(dnaComplimentaryBinaryOutput.innerHTML).toString(10);
 }
  
